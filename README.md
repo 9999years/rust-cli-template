@@ -13,6 +13,7 @@ Features:
     - [structopt] for command-line argument parsing (to be replaced with clap3
       whenever that's released)
 - A lib target for doc tests and a bin target for the actual tool
+- Compatible with [cargo-generate]
 
 [Criterion]: https://github.com/bheisler/criterion.rs
 [pretty_assertions]: https://docs.rs/pretty_assertions
@@ -22,3 +23,4 @@ Features:
 [tracing-subscriber]: https://docs.rs/tracing-subscriber
 [tracing-error]: https://docs.rs/tracing-error
 [structopt]: https://docs.rs/structopt
+[cargo-generate]: https://github.com/ashleygwilliams/cargo-generate
