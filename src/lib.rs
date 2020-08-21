@@ -4,6 +4,10 @@ use color_eyre::eyre::{self, WrapErr};
 use tracing::{event, info, instrument, span, warn, Level};
 
 /// The string literal `"hello, world!"`
+/// ```
+/// use {{crate_name}}::hello;
+/// assert_eq!(hello(), "hello, world!");
+/// ```
 pub fn hello() -> &'static str {
     "hello, world!"
 }

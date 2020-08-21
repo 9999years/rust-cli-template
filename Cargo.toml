@@ -1,11 +1,11 @@
 [package]
-name = "rust-cli-template"
+name = "{{project-name}}"
 version = "1.0.0"
-authors = ["Rebecca Turner <rbt@sent.as>"]
+authors = ["{{authors}}"]
 edition = "2018"
 # description = ""
 readme = "README.md"
-repository = "https://github.com/9999years/rust-cli-template"
+# repository = "https://github.com/9999years/rust-cli-template"
 license = "MIT"  # https://spdx.org/licenses/
 keywords = []  # free text
 categories = []  # https://crates.io/category_slugs
